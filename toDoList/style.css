@@ -1,0 +1,34 @@
+h1 {
+    color: white; 
+    font-family: 'Helvetica Neue', sans-serif; 
+    font-size: 100px; 
+    font-weight: bold; 
+    text-align: center;
+    background-color: #4CAF50; 
+    margin-top: 0%
+}
+body{ background-color: whitesmoke;}
+ul{ 
+    align-self: auto;
+    margin-right: 35%;
+    margin-left: 43%;    
+}
+#todoInput{
+    padding:8px;
+    border-color: darkturquoise;   
+    width:20%
+}
+  
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+#todoForm{
+    text-align: center;
+}

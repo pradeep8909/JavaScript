@@ -1,0 +1,33 @@
+h1{
+	margin: 20px;
+	padding: 20px;
+  text-align: center;
+	background-color: #ecfffc;
+}
+body{
+	text-align: center;
+}
+div{
+	margin: 20px;
+	padding: 20px;
+	display: inline-block;
+	width: 35%;
+}
+ul{
+	list-style-type: none;
+	padding: 0px;
+}
+h2{
+	padding: 10px 0px;
+}
+li{
+	padding: 10px 0px;
+}
+.odd{
+	background-color: tomato;
+	color: #fff;
+}
+.even{
+	background-color: blue;
+	color: #fff;
+}

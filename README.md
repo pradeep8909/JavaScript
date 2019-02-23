@@ -1,2 +1,2 @@
 # JavaScript
-All the JavaScript Projects made by me
+All Project implemented by me in JavaScript.

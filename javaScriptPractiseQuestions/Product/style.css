@@ -1,0 +1,26 @@
+h1{
+	padding: 20px;
+	margin: 20px;
+	text-align: center;
+	background-color: blueviolet;
+	color: #fff;
+	font-size: 2.5em;
+}
+p{
+	padding: 20px;
+	margin: 20px;
+	font-size: 1.5em;
+
+}
+.info{
+	background-color: orange;
+	color: #fff;
+}
+.error{
+	background-color: red;
+	color: #fff; 
+}
+.success{
+	background-color: green;
+	color: white; 
+}
