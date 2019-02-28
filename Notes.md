@@ -47,6 +47,11 @@ Agar hum meeting me hote hai to jab bhi hume koi call karta hai to ho hum bolte 
 ## Event Loop
 Event Loop ek infinite loop hai basically jo chalta reheta hia  humare browser me aur ye check karta hai ki koi event to nahi hua. Agar Event aata hai to vo callback kar deta hai. Agar aap google.com ko open karenge ke aur 1 ghante tak chode denge fir ek ghante baad aap useme kuch search karenge to apki search tabhi bhi hogi. Ye possible  event loop ki madad se he hota hai.
 ## Sync and Async
+Jab hum koi task synchronously execute karte hai to hum wait karte hai ki pehla step kahata ho tab hum dusra shuruu kare. Eg. Python
+Jab hum koi task asynchronously execute karte hai to we can move on to step 2 agar step 1 complete nahi bhi hua hai to. Is me hum wait nahi karte. Eg. JavaScript
+## Blocking and Non-blocking
+Blocking Tasks vo hote hai jisme hum cpu ka use kar rahe hai. for example 2 + 3 ek blocking task hai.
+Requests ka use karke data fetch karna non-blocking hai kyuki is me humari I/O devices use ho rahi hai, CPU nahi use ho raha hai. 
 
 
    
