@@ -8,5 +8,20 @@ Saal 91/92 main Java/C/C++ bahut popular languages thi Python nayi language thi 
 ## Static and Dynamic
 Humari kuch programming languages static hoti hai aur kuch languages dynamic.Static ka matlab ki hame variables ko define  unke type ke saath define karna padta hain jaise ki java main. Ex int a = 2 , string b = “navgurukl”, float c = 3.5,
 In sab example main hame variables ke pehele unka type diya hain ye sab `Static` language main use hota hain, Java static language hain, kyuki usme hame variables ke pehele uska data type declare karna padta hain.
-Dynamic ka matlab ki hame variables ke pahile uske type nahi declare nahi karna padta hain. Ex a = 2, b = “Bhavnesh”and c = 3.5. Ye sab dynamic language ke examples hain.Python and JavaScript ye dynamic language hain kyuki usme variables ke types declare nahi karne padte hain.
+Dynamic ka matlab ki hame variables ke pahile uske type nahi declare nahi karna padta hain. Ex a = 2, b = “Bhavnesh”and c = 3.5. Ye sab dynamic language ke examples hain.Python and JavaScript ye dynamic language hain kyuki usme variables ke types pecify nahi karne padte hain.
+## Using JavaScript
+Python/Java/C/C++ ye languages browser ke liye nahi bani hai on the other hand JavaScript humari browsers ke liye bani hui hai.
+Har browser ka alage JavaScript engine hota hai JavaScript chalane ke liye. Jese Google Chrome V8 use karta hia aur Firefox SpiderMonkey use karta hai.
+JS engine ek program hai jo JavaScipt ko run karta hai.
+## Rendering 
+Rendering ka mtalab hota hai 'fetching data'. Iska example ho sakta hi ek Class se uske methods lana.
+## Python Model
+Agar me python me 'google.com' ki request karu aur fir uske baad kuch print karau to jab tak request 'google.com' se data fetch nahi kar leta tab tak 'Hello World' Print Nahi hoga.
+```Python
+import requests
+response = requests.get("https://google.com")
+print('Hello World')
+```
+## JavaScript Model
+
    
