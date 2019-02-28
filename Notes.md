@@ -23,5 +23,30 @@ response = requests.get("https://google.com")
 print('Hello World')
 ```
 ## JavaScript Model
+Arar me javaScript me same task perform karu to mera Hello World pehele print hoga aur Data baad me aayega. Java Script dono task ko saath me run karega to ```log('Hello World)``` me 'google.com' ko fetch karne se kam time lagta hai is liye vo pehele ho jata hai baad me ```log('Hello World)``` hota hai.
+Ek example se samajte hai. Supposse 'A' or 'B' ki kitchen me turn hai to 'A' ne 'B' ko bola ke dukan se pyaaz le aao to 'B' to chala gaya pyaaz lena ab 'A' free hai to vo tamatar kaat sakta hai pr nahi kaata vo pyaaz ke aane ka wait karta hai.
+To ye upar wala example hai python ka.
+Agra 'A' 'B' ko bhej kar tamtar kaatne lagjay to vo javascript ke tarah behave kar raha hai.
+```JavaScript
+const axios = require('axios')
+axios.get('https://google/com')
+  .then(response => {
+   console.log('Data aagaya')
+    }
+  })
+  .catch(error => {
+    console.log('Error aagaya');
+  });
+
+console.log('Hello World')
+```
+## Event Driven Programming
+Agra aap ko apna facebook account dekhna hai to aap apa id and password dal kar ```log in``` par click karte ho, vo click karna ek event ho jata hai. Log in tabhi hoga jab aap click karenge. To event ke maddad se humare program chalte hai. Vo events mostly user inputs hote hai.
+## Callback functions
+Agar hum meeting me hote hai to jab bhi hume koi call karta hai to ho hum bolte hai ki mai kuch kaam kar raha hu mai aap ko call back karunga. Similarly, JS me hum jab hum koi aur kaa kar rahe hote hai to hum ek callback function likhdete hai jise jab vo task ho jaya to hum aupe kaam kar sake. For exaple jab google.com ka data aajay to mai use scrape karu to mai ek callback function likhunga.
+## Event Loop
+Event Loop ek infinite loop hai basically jo chalta reheta hia  humare browser me aur ye check karta hai ki koi event to nahi hua. Agar Event aata hai to vo callback kar deta hai. Agar aap google.com ko open karenge ke aur 1 ghante tak chode denge fir ek ghante baad aap useme kuch search karenge to apki search tabhi bhi hogi. Ye possible  event loop ki madad se he hota hai.
+## Sync and Async
+
 
    
